@@ -2,7 +2,7 @@
 
 A simple and responsive survey form built with **HTML and CSS** to collect feedback for community development initiatives. It features a clean layout, easy-to-fill input fields, and an accessible design to encourage community participation.
 ## live project
-[try here]("")
+[try here]( https://washiy-codes.github.io/Survey-Form/)
 
 ## Features
 - Clean and minimal UI  
