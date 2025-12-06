@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="data:image/png;base64,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" class="logo"/>
+        <h1>Help Us Improve</h1>
+        <nav class="scroll-nav">
+              <ul>
+                <li><a href="#personal-info">Profile</a></option></li>
+                <li><a href="#challenges">Challenges</a></li>
+                <li><a href="#health">Health</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#participation">Participation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p><strong>Objective:</strong>This questionnaire is designed to gather information from community members to understand the key challenges, priorities, and opportunities for development in our area.
+
+</p>
+    <main>
+        <form>
+        <fieldset id="personal-info">
+            <legend>Personal information</legend>
+            <div class="info">
+            <label for="first-name">First Name
+            <input type="text" id="first-name" name="first-name" required placeholder="e.g John">
+            </label>
+            <label for="last-name">Last Name
+            <input type="text" id="last-name" name="last-name" required placeholder="e.g Doe">
+            </label>
+            <label for="email">Email
+            <input type="email" id="email" name="email" required placeholder="e.g janedoe@example.com">
+            </label>
+            <label for="age">D.O.B
+            <input type="date" id="age" name="age" required placeholder="Enter your date of birth">
+            </label>
+        </div>
+            <div>
+                <h2>How long have you stayed in the community?</h2>
+                <label for="5years"><input type="radio" id="5years" name="community-duration" value="5years" class="inline"> 5 years</label>
+                <label for="10years"><input type="radio" id="10years" name="community-duration" value="10years" class="inline"> 10 years</label>
+                <label for="morethan10"><input type="radio" id="morethan10" name="community-duration" value="morethan10" class="inline"> More than 10 years</label>
+            </div>
+        </fieldset>
+        <fieldset id="challenges">
+            <legend>Community Challenges</legend>
+            <div class="challenges">
+            <h2>What are the three biggest challenges your community faces? (Select up to three)</h2>
+            <label for="challenges"><input type="checkbox" id="challenges" name="challenges" value="infrastructure" > Poor infrastructure</label>
+            <label for="challenges"><input type="checkbox" id="challenges" name="challenges" value="education"> Lack of educational resources</label>
+            <label for="challenges"><input type="checkbox" id="challenges" name="challenges" value="healthcare"> Inadequate healthcare services</label>
+            <label for="challenges"><input type="checkbox" id="challenges" name="challenges" value="employment"> High unemployment rates</label>
+            <label for="challenges"><input type="checkbox" id="challenges" name="challenges" value="crime"> High crime rates</label>
+            </div>
+            <div>
+                <h2>How would you rate the quality of life in your community?</h2>
+                <label for="quality-of-life-1"><input type="radio" id="quality-of-life-1" name="quality-of-life" value="1" class="inline"> Very poor</label>
+                <label for="quality-of-life-2"><input type="radio" id="quality-of-life-2" name="quality-of-life" value="2" class="inline"> Poor</label>
+                <label for="quality-of-life-3"><input type="radio" id="quality-of-life-3" name="quality-of-life" value="3" class="inline"> Average</label>
+                <label for="quality-of-life-4"><input type="radio" id="quality-of-life-4" name="quality-of-life" value="4" class="inline"> Good</label>
+                <label for="quality-of-life-5"><input type="radio" id="quality-of-life-5" name="quality-of-life" value="5" class="inline"> Very good</label>
+            </div>
+            <div>
+                <h2>In your opinion, which group is most affected by the challenges in your community?</h2>
+                <label for="youth"><input type="radio" id="youth" name="affected-group" value="youth" class="inline"> Youth</label>
+                <label for="elderly"><input type="radio" id="elderly" name="affected-group" value="elderly" class="inline"> Elderly</label>
+                <label for="women"><input type="radio" id="women" name="affected-group" value="women" class="inline"> Women</label>
+                <label for="men"><input type="radio" id="men" name="affected-group" value="men" class="inline"> Men</label>
+            </div>
+        </fieldset>
+        <fieldset id="health">
+            <legend>Health</legend>
+            <div>
+                <h2>How would you rate the healthcare services in your community?</h2>
+                <label for="healthcare-1"><input type="radio" id="healthcare-1" name="healthcare" value="1" class="inline"> Very poor</label>
+                <label for="healthcare-2"><input type="radio" id="healthcare-2" name="healthcare" value="2" class="inline"> Poor</label>
+                <label for="healthcare-3"><input type="radio" id="healthcare-3" name="healthcare" value="3" class="inline "> Average</label>
+                <label for="healthcare-4"><input type="radio" id="healthcare-4" name="healthcare" value="4" class="inline"> Good</label>
+                <label for="healthcare-5"><input type="radio" id="healthcare-5" name="healthcare" value="5" class="inline"> Very Good</label>
+            </div>
+            <div>
+                <h2>What health issues are most prevalent in your community? (Select all that apply)</h2>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="diabetes"> Diabetes</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="hypertension"> Hypertension</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="mental-health"> Mental health issues</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="malaria"> Malaria</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="hiv-aids"> HIV/AIDS</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="tuberculosis"> Tuberculosis</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="other"> Cholera</label>
+                <label for="health-issues"><input type="checkbox" id="health-issues" name="health-issues" value="other"> Other</label>
+            </div>
+            <div>
+                <h2>How satisfied are you with the healthcare services in your community?</h2>
+                <label for="satisfaction-1"><input type="radio" id="satisfaction-1" name="satisfaction" value="1" class="inline"> Very dissatisfied</label>
+                <label for="satisfaction-2"><input type="radio" id="satisfaction-2" name="satisfaction" value="2" class="inline"> Dissatisfied</label>
+                <label for="satisfaction-3"><input type="radio" id="satisfaction-3" name="satisfaction" value="3" class="inline"> Neutral</label>
+                <label for="satisfaction-4"><input type="radio" id="satisfaction-4" name="satisfaction" value="4" class="inline"> Satisfied</label>
+                <label for="satisfaction-5"><input type="radio" id="satisfaction-5" name="satisfaction" value="5" class="inline"> Very Satisfied</label>
+            </div>
+        </fieldset>
+        <fieldset id="security">
+            <legend>Security</legend>
+            <div>
+                <h2>How safe do you feel in your community?</h2>
+                <label for="safety-1"><input type="radio" id="safety-1" name="safety" value="1" class="inline"> Very unsafe</label>
+                <label for="safety-2"><input type="radio" id="safety-2" name="safety" value="2" class="inline"> Unsafe</label>
+                <label for="safety-3"><input type="radio" id="safety-3" name="safety" value="3" class="inline"> Neutral</label>
+                <label for="safety-4"><input type="radio" id="safety-4" name="safety" value="4" class="inline"> Safe</label>
+                <label for="safety-5"><input type="radio" id="safety-5" name="safety" value="5" class="inline"> Very Safe</label>
+            </div>
+            <div>
+                <h2>What security issues are most concerning in your community? (Select all that apply)</h2>
+                <label for="security-issues">
+                    <select id="security-issues" name="security-issues" value="theft">
+                    <option value="theft">Theft</option>
+                    <option value="assault">Assault</option>
+                    <option value="vandalism">Vandalism</option>
+                    <option value="drug-related-crime">Drug-related crime</option>
+                    <option value="domestic-violence">Domestic violence</option>
+                    <option value="gang-violence">Gang violence</option>
+                    <option value="all">All of the above</option>
+                </select>
+            </div>
+            <div>
+                <h2>How safe do you feel walking alone in your community at night?</h2>
+                <label><input type="radio" name="walking-safety" value="1"> Very safe</label>
+                <label><input type="radio" name="walking-safety" value="2"> Somewhat safe</label>
+                <label><input type="radio" name="walking-safety" value="3"> Not safe</label>
+            </div>
+            <di>
+                <h2>Have you or someone you know experienced theft, assault, or vandalism in the last 12 months?</h2>
+                <label for="yes"><input type="radio" id="yes"/>Yes</label>
+                <label for="no"><input type="radio" id="no"/>No</label>
+            </div>
+            <div>
+                <h2>How often do you see police patrols in your community?</h2>
+                <label for="patrols-often"><input type="radio" id="patrols-often" name="patrols" value="often"> Often</label>
+                <label for="patrols-sometimes"><input type="radio" id="patrols-sometimes" name="patrols" value="sometimes"> Sometimes</label>
+                <label for="patrols-rarely"><input type="radio" id="patrols-rarely" name="patrols" value="rarely"> Rarely</label>
+                <label for="patrols-never"><input type="radio" id="patrols-never" name="patrols" value="never"> Never</label>
+            </div>
+            <div>
+                <h2>What measures do you think would improve safety in your community?</h2>
+                <label for="measures">
+                    <select id="measures" name="measures">
+                        <option value="more-police">More police presence</option>
+                        <option value="community-programs">Community programs</option>
+                        <option value="better-lighting">Better street lighting</option>
+                        <option value="neighborhood-watch">Neighborhood watch</option>
+                        <option value="youth-activities">Youth activities</option>
+                        <option value="all">All of the above</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <h2>Is there anything else you would like to share about your community's safety?</h2>
+                <textarea id="additional-comments" name="additional-comments" rows="4" cols="50" placeholder="Your comments..."></textarea>
+            </div>
+        </fieldset>
+        <fieldset id="education">
+            <legend>Education</legend>
+            <div>
+                <h2>How would you rate the quality of education in your community?</h2>
+                <label for="education-quality-1"><input type="radio" id="education-quality-1" name="education-quality" value="1" class="inline"> Exelent</label>
+                <label for="education-quality-2"><input type="radio" id="education-quality-2" name="education-quality" value="2" class="inline"> Good</label>
+                <label for="education-quality-3"><input type="radio" id="education-quality-3" name="education-quality" value="3" class="inline"> fair</label>
+                <label for="education-quality-4"><input type="radio" id="education-quality-4" name="education-quality" value="4" class="inline"> poor</label>
+            </div>
+            <div>
+                <h2>What are the main barriers to education in your community? (Select all that apply)</h2>
+                <label for="barriers"><input type="checkbox" id="barriers" name="barriers" value="lack-of-schools"> Lack of schools</label>
+                <label for="barriers"><input type="checkbox" id="barriers" name="barriers" value="high-costs"> High costs of education</label>
+                <label for="barriers"><input type="checkbox" id="barriers" name="barriers" value="transportation"> Transportation issues</label>
+                <label for="barriers"><input type="checkbox" id="barriers" name="barriers" value="language-barrier"> Language barrier</label>
+                <label for="barriers"><input type="checkbox" id="barriers" name="barriers" value="other"> Other</label>
+            </div>
+            <div>
+                <h2>How satisfied are you with the educational opportunities available in your community?</h2>
+                <label for="satisfaction-1"><input type="radio" id="satisfaction-1" name="satisfaction-edu" value="-1"> Very dissatisfied</label>
+                <label for="satisfaction-2"><input type="radio" id="satisfaction-2" name="satisfaction-edu" value="0"> Dissatisfied</label>
+                <label for="satisfaction-3"><input type="radio" id="satisfaction-3" name="satisfaction-edu" value="1"> Neutral</label>
+                <label for="satisfaction-4"><input type="radio" id="satisfaction-4" name="satisfaction-edu" value="2"> Satisfied</label>
+                <label for="satisfaction-5"><input type="radio" id="satisfaction-5" name="satisfaction-edu" value="3"> Very satisfied</label>
+            </div>
+            <div>
+                <h2>How far is the nearest school from your home?</h2>
+                <label for="distance1"><input type="checkbox" id="distance1"/> Less than 1 km</label>
+                <label for="distance2"><input type="checkbox" id="distance2"/> 1 km - 5 km</label>
+                <label for="distance3"><input type="checkbox" id="distance3"/> More than 5 km</label>
+            </div>
+            <div>
+                <h2>Does the local school have enough learning materials and facilities?</h2>
+                <label for="yess"><input type="radio" id="yess"/>Yes</label>
+                <label for="noo"><input type="radio" id="noo"/>No</label>
+            </div>
+            <div>
+                <h2>Are there vocational training or adult education programs available in your area?</h2>
+                <label for="vocational-yes"><input type="radio" id="vocational-yes" name="vocational" value="yes"> Yes</label>
+                <label for="vocational-no"><input type="radio" id="vocational-no" name="vocational" value="no"> No</label>
+                <label for="vocational-not-sure"><input type="radio" id="vocational-not-sure" name="vocational" value="not-sure"> Not sure</label>
+            </div>
+            <div>
+                <h2>What improvements would you like to see in the education system of your community?</h2>
+                <textarea id="education-improvements" name="education-improvements" rows="4" cols="50" placeholder="Your suggestions..."></textarea>
+        </fieldset>
+        <fieldset id="environment">
+            <legend>Environment</legend>
+            <div>
+                <h2>How do you usually dispose of household waste?</h2>
+                <label for="waste-disposal-1"><input type="checkbox" id="waste-disposal-1" name="waste-disposal" value="recycling"> Collected by waste management services</label>
+                <label for="waste-disposal-2"><input type="checkbox" id="waste-disposal-2" name="waste-disposal" value="composting"> Dump it in open areas</label>
+                <label for="waste-disposal-3"><input type="checkbox" id="waste-disposal-3" name="waste-disposal" value="landfill"> Bury it</label>
+                <label for="waste-disposal-4"><input type="checkbox" id="waste-disposal-4" name="waste-disposal" value="other"> Other</label>
+            </div>
+            <div>
+                <h2>How often do you see litter or illegal dumping in your community?</h2>
+                <label for="litter-often"><input type="radio" id="litter-often" name="litter" value="often"> Often</label>
+                <label for="litter-sometimes"><input type="radio" id="litter-sometimes" name="litter" value="sometimes"> Sometimes</label>
+                <label for="litter-rarely"><input type="radio" id="litter-rarely" name="litter" value="rarely"> Rarely</label>
+                <label for="litter-never"><input type="radio" id="litter-never" name="litter" value="never"> Never</label>
+            </div>
+            <div>
+                <h2>Have you participated in any tree planting activities in the past year?</h2>
+                <label for="tree-planting-yes"><input type="radio" id="tree-planting-yes" name="tree-planting" value="yes"> Yes</label>
+                <label for="tree-planting-no"><input type="radio" id="tree-planting-no" name="tree-planting" value="no"> No</label>
+            </div>
+            <div>
+                <h2>What is your main source of clean water?</h2>
+                <label for="water-source-piped"><input type="radio" id="water-source-piped" name="water-source" value="piped"> Piped water</label>
+                <label for="water-source-well"><input type="radio" id="water-source-well" name="water-source" value="well"> Well water</label>
+                <label for="water-source-rain"><input type="radio" id="water-source-rain" name="water-source" value="rain"> Rainwater</label>
+                <label for="water-source-bottled"><input type="radio" id="water-source-bottled" name="water-source" value="bottled"> Bottled water</label>
+            </div>
+            <div>
+                <h2>Which type of pollution is most concerning in your community?</h2>
+                <label for="pollution-air"><input type="radio" id="pollution-air" name="pollution" value="air"> Air pollution</label>
+                <label for="pollution-water"><input type="radio" id="pollution-water" name="pollution" value="water"> Water pollution</label>
+                <label for="pollution-soil"><input type="radio" id="pollution-soil" name="pollution" value="soil"> Soil pollution</label>
+                <label for="pollution-noise"><input type="radio" id="pollution-noise" name="pollution" value="noise"> Noise pollution</label>
+            </div>
+            <div>
+                <h2>How often do community clean-up exercises happen in your area?</h2>
+                <label for="cleanup-often"><input type="radio" id="cleanup-often" name="cleanup" value="often"> Often</label>
+                <label for="cleanup-sometimes"><input type="radio" id="cleanup-sometimes" name="cleanup" value="sometimes"> Sometimes</label>
+                <label for="cleanup-rarely"><input type="radio" id="cleanup-rarely" name="cleanup" value="rarely"> Rarely</label>
+                <label for="cleanup-never"><input type="radio" id="cleanup-never" name="cleanup" value="never"> Never</label>
+            </div>
+            <div>
+                <h2>Any other issues please specify</h2>
+                <input class="line">
+                <input class="line">
+                <input class="line">
+            </div>
+        </fieldset>
+        <fieldset id="participation">
+            <legend>Participation</legend>
+            <div>
+                <h2>How often do you participate in community clean-up exercises?</h2>
+                <label for="participation-often"><input type="radio" id="participation-often" name="participation" value="often"> Often</label>
+                <label for="participation-sometimes"><input type="radio" id="participation-sometimes" name="participation" value="sometimes"> Sometimes</label>
+                <label for="participation-rarely"><input type="radio" id="participation-rarely" name="participation" value="rarely"> Rarely</label>
+                <label for="participation-never"><input type="radio" id="participation-never" name="participation" value="never"> Never</label>
+            </div>
+            <div>
+                <h2>Are you a member of any community groups or organizations?</h2>
+                <label for="community-groups-yes"><input type="radio" id="community-groups-yes" name="community-groups" value="yes"> Yes</label>
+                <label for="community-groups-no"><input type="radio" id="community-groups-no" name="community-groups" value="no"> No</label>
+            </div>
+            <div>
+                <h2>How often do you attend community meetings or events?</h2>
+                <label for="attendance-often"><input type="radio" id="attendance-often" name="attendance" value="often"> Often</label>
+                <label for="attendance-sometimes"><input type="radio" id="attendance-sometimes" name="attendance" value="sometimes"> Sometimes</label>
+                <label for="attendance-rarely"><input type="radio" id="attendance-rarely" name="attendance" value="rarely"> Rarely</label>
+                <label for="attendance-never"><input type="radio" id="attendance-never" name="attendance" value="never"> Never</label>
+            </div>
+            <div>
+                <h2>What motivates you to participate in community activities?</h2>
+                <label for="motivation"><input type="checkbox" id="motivation" name="motivation" value="social-impact"> Desire to make a positive social impact</label>
+                <label for="motivation"><input type="checkbox" id="motivation" name="motivation" value="networking"> Networking opportunities</label>
+                <label for="motivation"><input type="checkbox" id="motivation" name="motivation" value="personal-growth"> Personal growth</label>
+                <label for="motivation"><input type="checkbox" id="motivation" name="motivation" value="community-belonging"> Sense of community belonging</label>
+                <label for="motivation"><input type="checkbox" id="motivation" name="motivation" value="other"> Other</label>
+            </div>
+            <div>
+                <h2>What barriers prevent you from participating more in community activities?</h2>
+                <label for="barriers-participation"><input type="checkbox" id="barriers-participation" name="barriers-participation" value="lack-of-time"> Lack of time</label>
+                <label for="barriers-participation"><input type="checkbox" id="barriers-participation" name="barriers-participation" value="lack-of-information"> Lack of information about events</label>
+                <label for="barriers-participation"><input type="checkbox" id="barriers-participation" name="barriers-participation" value="transportation-issues"> Transportation issues</label>
+                <label for="barriers-participation"><input type="checkbox" id="barriers-participation" name="barriers-participation" value="other"> Other</label>
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</main>
+</body>
+</html>
+
+
+
+
+
